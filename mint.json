@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "EvalX",
   "logo": {
-    "dark": "/logo/evalx-text-logo-large.png",
-    "light": "/logo/evalx-text-logo-large.png",
+    "dark": "/logo/evalx-docs-logo.png",
+    "light": "/logo/evalx-docs-logo.png",
     "href": "https://evalx-sh.vercel.app/"
   },
   "favicon": "/favicon.png",
@@ -17,6 +17,10 @@
     }
   },
   "topbarLinks": [
+    {
+      "name": "Home",
+      "url": "https://evalx-sh.vercel.app/"
+    },
     {
       "name": "Documentation",
       "url": "https://evalx.mintlify.app/docs"
