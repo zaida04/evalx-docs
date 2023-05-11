@@ -4,7 +4,7 @@
   "logo": {
     "dark": "/logo/evalx-docs-logo.png",
     "light": "/logo/evalx-docs-logo.png",
-    "href": "https://evalx-sh.vercel.app/"
+    "href": "https://evalx.sh/"
   },
   "favicon": "/favicon.png",
   "colors": {
@@ -19,7 +19,7 @@
   "topbarLinks": [
     {
       "name": "Home",
-      "url": "https://evalx-sh.vercel.app/"
+      "url": "https://evalx.sh/"
     },
     {
       "name": "Documentation",
