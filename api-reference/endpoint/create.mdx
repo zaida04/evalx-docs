@@ -16,14 +16,8 @@ description: "This endpoint runs code and returns the result"
 
 ### Response
 
-<ResponseField name="success" type="number">
-  Indicates whether the call was successful. 1 if successful, 0 if not.
-</ResponseField>
-
-<ResponseField name="user_group" type="object">
-
-The contents of the user group
-
+<ResponseField name="output" type="string">
+  The output from the stdout of your code.
 </ResponseField>
 
 <RequestExample>
@@ -31,8 +25,8 @@ The contents of the user group
 ```bash Example Request
 curl -X POST \
     -H "Content-Type: application/json" \
-    -H "Authorization: test-key-1" \
-    -d '{"code": "console.log(\'Hello world!\')", "language": "js"}' \
+    -H "Authorization: Bearer test-key-1" \
+    -d '{"code": "console.log('Hello world!')", "language": "js"}' \
 https://evalx.sh/api/eval
   
 ```
