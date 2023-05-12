@@ -6,7 +6,7 @@
     "light": "/logo/evalx-docs-logo.png",
     "href": "https://evalx.sh/"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/favicon.ico",
   "colors": {
     "primary": "#DCA54C",
     "light": "#DCA54C",
